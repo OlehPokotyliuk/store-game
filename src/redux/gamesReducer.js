@@ -1,4 +1,8 @@
-export const GAMES = [
+import { configureStore } from '@reduxjs/toolkit';
+
+import { createSlice } from '@reduxjs/toolkit'
+const initialState = {
+  games:[
     {
         image: '/game-covers/forza_5.jpeg',
         title: 'Forza Horizon 5',
@@ -53,4 +57,19 @@ export const GAMES = [
         id: 6,
         description: 'Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.'
     },
-]
+]};
+
+export const gamesListSlice = createSlice({
+  name: 'gamesList',
+  initialState,
+  reducers: {
+    getState(state){
+      return state
+    }
+  },
+})
+
+
+export const { getState } = gamesListSlice.actions
+
+export default gamesListSlice.reducer
