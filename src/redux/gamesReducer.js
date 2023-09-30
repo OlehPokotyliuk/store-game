@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   games:[
     {
-        image: '/assets/forza_5.jpeg',
+        image: 'assets/forza_5.jpeg',
         title: 'Forza Horizon 5',
         genres: ['Гонки', 'Симулятор', 'Открытый мир'],
         price: 2343,
@@ -13,7 +13,7 @@ const initialState = {
         description: "Вас ждёт бесконечный калейдоскоп приключений Horizon! Совершайте увлекательные поездки по невероятно красивому и самобытному миру Мексики за рулём величайших автомобилей в истории. Начните своё приключение Horizon уже сегодня, добавив игру в свой список желаний!",
     },
     {
-        image: '/assets/battlefield_2042.jpg',
+        image: 'assets/battlefield_2042.jpg',
         title: 'Battlefield 2042',
         genres: ['Экшен', 'Шутер', 'Война'],
         video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
@@ -22,7 +22,7 @@ const initialState = {
         description: 'Battlefield™ 2042 — это шутер от первого лица, в котором серия возвращается к легендарным масштабным сражениям. В будущем, где царит хаос, адаптируйтесь и процветайте на постоянно меняющихся полях боя благодаря своему отряду и арсеналу новейших технологий.'
     },
     {
-        image: '/assets/life_is_strange_true_colors.jpeg',
+        image: 'assets/life_is_strange_true_colors.jpeg',
         title: 'Life is Strange True Colors',
         genres: ['Глубокий сюжет', 'Протагонистка'],
         video: 'https://www.youtube.com/embed/b6CkzwVAr0M',
@@ -31,7 +31,7 @@ const initialState = {
         description: 'Алекс Чэнь от всех скрывает своё «проклятие» — сверхъестественную способность считывать сильные эмоции других и влиять на них. Но когда её брат погибает — якобы в результате несчастного случая, — Алекс использует её, чтобы узнать правду.'
     },
     {
-        image: '/assets/gta_v.jpeg',
+        image: 'assets/gta_v.jpeg',
         title: 'Grand Theft Auto V',
         genres: ['Открытый мир', 'Экшен'],
         video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
@@ -40,7 +40,7 @@ const initialState = {
         description: 'Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.'
     },
     {
-        image: '/assets/rainbow_siege.jpeg',
+        image: 'assets/rainbow_siege.jpeg',
         title: 'Tom Clancy\'s Rainbow Six® Siege',
         video: 'https://www.youtube.com/embed/6wlvYh0h63k',
         genres: ['Тактика', 'Шутер'],
