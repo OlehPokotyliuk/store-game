@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 export const HomePage = () =>{
   const games = useSelector(state=> state.gamesList.games);
   
-  console.log(games);
     return(
         <div className="homePage">
         {
