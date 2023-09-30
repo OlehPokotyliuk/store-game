@@ -15,6 +15,7 @@ export const GameItem = ({game})=>{
     }
     return(
         <div className="game-item" onClick={handleClick}> 
+        {/* Image  */}
             <GameCover image={game.image}/>
             <div className="game-item__details">
                 <span className="game-item__title">{game.title}</span>
